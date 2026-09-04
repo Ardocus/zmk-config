@@ -10,5 +10,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: zmk-user-config-template
+      url: https://github.com/Cyboard-DigitalTailor/zmk-user-config-template.git
+      revision: main
+      path: modules/zmk-user-config-template
   self:
     path: config
